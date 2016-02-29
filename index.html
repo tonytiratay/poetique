@@ -90,7 +90,7 @@
         <h1>L'Abécédaire</h1>
         <div ng-repeat="a in alphabet" class="col s2">
             <a class="modal-trigger" href="#lettre{{a.lettre}}">
-                <img ng-src="/{{a.fresque}}" class="responsive-img">
+                <img ng-src="{{a.fresque}}" class="responsive-img">
             </a>
             <div id="lettre{{a.lettre}}" class="modal">
                 <div class="modal-content">

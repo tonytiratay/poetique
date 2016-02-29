@@ -25,7 +25,7 @@ section {
 .projet-intro {
     min-height: 500px;
     background-color: #009cb8;
-    background: url(/img/arbre-bleu.jpg);
+    background: url(../img/arbre-bleu.jpg);
     background-attachment: fixed;
     background-size: contain;
     background-position: center;
@@ -39,7 +39,7 @@ section {
 
 .projet-participants {
     min-height: 500px;
-    background: url(/img/autres/mohcine.jpg);
+    background: url(../img/autres/mohcine.jpg);
     background-attachment: fixed;
     color: white;
     text-shadow: 0 0 5px #191919;
