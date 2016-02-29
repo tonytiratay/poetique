@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="alphabet">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>POÊTIQUE DE LA VILLE</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body >
+
+<div class="navbar-fixed">
+        <nav class="white" role="navigation">
+            <div class="nav-wrapper container">
+              <a id="logo-container" href="#" class="brand-logo">POÊTIQUE DE LA VILLE</a>
+              <ul class="right hide-on-med-and-down">
+                  <li><a href="#projet">LE PROJET</a></li>
+                  <li><a href="#abecedaire">ABÉCÉDAIRE</a></li>
+              </ul>
+
+             
+            </div>
+          </nav>
+    </div>
+    
+<section id="projet" class="section scrollspy">
+    <div class="projet-intro valign-wrapper">
+        <div class="container">
+            <h1>Le projet</h1>
+            <h4>L’action « Poétique de la ville » a été proposée aux usagers du Cercle J – Arthur Rimbaud, l’espace jeunesse de la ville de Rosny-sous-Bois. Elle a permis d’interroger la notion d’urbanité par le biais de l’outil numérique. </h4>
+            
+        </div>
+    </div>
+    <div class="container row projet-description">
+    
+        
+    <blockquote><h5>Cette action a généré un langage visuel urbain et poétique en associant les mots, la poésie et la ville à travers la réalisation d’un abécédaire urbain. Ce dernier a servi de matière première à des créations graphiques, photographiques et sonores.</h5>        </blockquote>
+    <h1></h1>
+    <div class="col s12 m6">
+        <p>A l’occasion des journées européennes  du patrimoine 2014, l’Espace Simenon de Rosny-sous-Bois a accueilli l’ensemble des créations sous la forme d’une exposition incluant un abécédaire urbain décliné en poèmes et en photographies ainsi qu’une création au néon de la 27ème lettre. </p>
+        <p>Le site internet est l’occasion de rendre pérenne et accessible l’ensemble de ces créations.
+        Les coulisses de l’action Poétique de la ville : <a href="http://poetiquedelaville.tumblr.com">www.poetiquedelaville.tumblr.com</a></p>
+    </div>
+    <div class="col s12 m6">
+        <img src="img/autres/Bache40x60.jpg" class="responsive-img materialboxed">
+    </div>
+    
+    </div>
+    <div class="projet-participants valign-wrapper">
+        <div class="row container">
+            <div class="col s12 m6">
+                <img src="img/autres/montageexpo.jpg" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 m6">
+                <img src="img/autres/montagecollage.jpg" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12">
+                <h4>Participants des ateliers</h4>
+                <ul>
+                    <li>Edwick</li>
+                    <li>Daniel</li>
+                    <li>Manon</li>
+                    <li>Demba</li>
+                    <li>Fodié</li>
+                    <li>Kaïs</li>
+                    <li>Nasra</li>
+                    <li>Salayna</li>
+                    <li>Roamin</li>
+                    <li>Saïf</li>
+                    <li>Ikram</li>
+                    <li>Zacharia</li>
+                    <li>Lahossine</li>
+                    <li>Frédéric</li>
+                    <li>Cindy</li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</section> 
+    
+<section id="abecedaire" class="section scrollspy" ng-controller="alphabetCtrl">    
+<div class="abecedaire">
+    <div class="container">
+    <div class="row">
+        <h1>L'Abécédaire</h1>
+        <div ng-repeat="a in alphabet" class="col s2">
+            <a class="modal-trigger" href="#lettre{{a.lettre}}">
+                <img ng-src="/{{a.fresque}}" class="responsive-img">
+            </a>
+            <div id="lettre{{a.lettre}}" class="modal">
+                <div class="modal-content">
+                  <img ng-src="{{a.fresque}}" style="width:100%;">
+                  <iframe width="100%" height="150" scrolling="no" frameborder="no" ng-src="{{a.soundcloud}}"></iframe>    
+                  <img ng-src="{{a.poeme}}" style="width:100%;">
+                  <iframe width="100%" height="315" ng-src="{{a.video}}" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+</section>  
+    
+<footer class="page-footer blue lighten-2">
+    <div class="container white-text bold"><p>Finalisation graphique, photographique et sonore  : <span style="font-weight: bold;">Toufik - Hervé - Manuel - Christophe – Edwick</span></p>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+         
+         <p>Conception site web : <span style="font-weight: bold;">Tony Tiratay</span></p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/angular.min.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>

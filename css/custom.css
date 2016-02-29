@@ -1,0 +1,61 @@
+
+html {
+   min-height: 100%;
+}
+
+body {
+   min-height: 100%;
+}
+
+section {
+    min-height: 100%;
+}
+
+.parallax-container {
+      height: 550px;
+}
+.modal {
+    max-height: 100%;
+    margin-top: -5%;
+}
+.row .col {
+    padding: 0;
+}
+
+.projet-intro {
+    min-height: 500px;
+    background-color: #009cb8;
+    background: url(/img/arbre-bleu.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    color: white;/*
+    text-shadow: 0 0 5px #191919;*/
+}
+
+.projet-description {
+    padding: 50px 0;
+}
+
+.projet-participants {
+    min-height: 500px;
+    background: url(/img/autres/mohcine.jpg);
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 0 0 5px #191919;
+    padding: 50px 0;
+}
+.projet-participants ul li {
+    margin-left: 25px;
+    list-style-type: circle;
+    font-size: 18px;
+}
+
+.abecedaire {
+    padding: 10px 0;
+}
+
+
+.section {
+    padding: 0;
+}
