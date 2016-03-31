@@ -11,26 +11,25 @@ section {
     min-height: 100%;
 }
 
-.parallax-container {
-      height: 550px;
-}
+
 .modal {
     max-height: 100%;
     margin-top: -5%;
 }
 .row .col {
-    padding: 0;
+    padding: 0;margin:0;
 }
 
 .projet-intro {
     min-height: 500px;
-    background-color: #009cb8;
-    background: url(../img/arbre-bleu.jpg);
+    background: #4483bf;
+    background: url(../img/arbrePoetique.png);
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
-    color: white;/*
-    text-shadow: 0 0 5px #191919;*/
+    color: white;
+    text-shadow: 0 0 5px #191919;
 }
 
 .projet-description {
@@ -41,6 +40,8 @@ section {
     min-height: 500px;
     background: url(../img/autres/mohcine.jpg);
     background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
     color: white;
     text-shadow: 0 0 5px #191919;
     padding: 50px 0;
@@ -56,6 +57,6 @@ section {
 }
 
 
-.section {
-    padding: 0;
+.row {
+    margin-bottom: 0;
 }

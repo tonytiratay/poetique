@@ -14,37 +14,36 @@
 <body >
 
 <div class="navbar-fixed">
-        <nav class="white" role="navigation">
-            <div class="nav-wrapper container">
-              <a id="logo-container" href="#" class="brand-logo">POÊTIQUE DE LA VILLE</a>
-              <ul class="right hide-on-med-and-down">
-                  <li><a href="#projet">LE PROJET</a></li>
-                  <li><a href="#abecedaire">ABÉCÉDAIRE</a></li>
-              </ul>
+    <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+          <a id="logo-container" href="#" class="brand-logo">POÊTIQUE DE LA VILLE</a>
+          <ul class="right hide-on-med-and-down">
+              <li><a href="#projet">LE PROJET</a></li>
+              <li><a href="#abecedaire">ABÉCÉDAIRE</a></li>
+          </ul>
 
 
-            </div>
-          </nav>
-    </div>
+        </div>
+      </nav>
+</div>
 
-<section id="projet" class="section scrollspy" style="margin-top:-30px;">
+<section id="projet" class="section scrollspy">
     <div class="projet-intro valign-wrapper">
         <div class="container">
             <h1>Le projet</h1>
-
-            <h4>L’action Poétique de la ville a été proposée aux usagers de l’espace jeunesse de la ville de Rosny-sous-Bois. Elle a permis d’interroger la notion d’urbanité par le biais de l’outil numérique.</h4>
+            <h4>L’action « Poétique de la ville » a été proposée aux usagers du Cercle J – Arthur Rimbaud, l’espace jeunesse de la ville de Rosny-sous-Bois. Elle a permis d’interroger la notion d’urbanité par le biais de l’outil numérique. </h4>
 
         </div>
     </div>
     <div class="container row projet-description">
 
 
-    <blockquote><h5>La réalisation d’un abécédaire a servi de matière première à l’élaboration de créations graphiques déployées sur les murs de la ville, des créations musicales et écrites. </h5>        </blockquote>
+    <blockquote><h5>Cette action a généré un langage visuel urbain et poétique en associant les mots, la poésie et la ville à travers la réalisation d’un abécédaire urbain. Ce dernier a servi de matière première à des créations graphiques, photographiques et sonores.</h5>        </blockquote>
     <h1></h1>
     <div class="col s12 m6">
-        <p>C’est à l’occasion des journées européennes du patrimoine, qui se sont déroulées le 20 & 21 septembre 2014, que l’Espace Simenon de Rosny-sous-Bois a pu accueillir
-l’ensemble des créations sous la forme d’une exposition incluant un abécédaire urbain décliné en poèmes et en photographies ainsi qu’une création au néon de la 27ème lettre.</p>
-        <p>Le site internet est l’occasion de rendre pérenne et accessible l’ensemble de ces créations. Les coulisses de l’action Poétique de la ville : <a href="http://poetiquedelaville.tumblr.com">www.poetiquedelaville.tumblr.com</a></p>
+        <p>A l’occasion des journées européennes  du patrimoine 2014, l’Espace Simenon de Rosny-sous-Bois a accueilli l’ensemble des créations sous la forme d’une exposition incluant un abécédaire urbain décliné en poèmes et en photographies ainsi qu’une création au néon de la 27ème lettre. </p>
+        <p>Le site internet est l’occasion de rendre pérenne et accessible l’ensemble de ces créations.
+        Les coulisses de l’action Poétique de la ville : <a href="http://poetiquedelaville.tumblr.com">www.poetiquedelaville.tumblr.com</a></p>
     </div>
     <div class="col s12 m6">
         <img src="img/autres/Bache40x60.jpg" class="responsive-img materialboxed">
@@ -55,6 +54,7 @@ l’ensemble des créations sous la forme d’une exposition incluant un abécé
         <div class="row container">
             <div class="col s12 m6">
               <h4>Participants des ateliers</h4>
+              <p>Les élèves de CE1a et CM1c (2013/2014)</br>de l’école élémentaire Eugénie Cotton</p>
               <ul>
                   <li>Edwick</li>
                   <li>Daniel</li>
@@ -74,8 +74,11 @@ l’ensemble des créations sous la forme d’une exposition incluant un abécé
               </ul>
             </div>
             <div class="col s12 m6">
-                <img src="img/autres/montageexpo.jpg" class="responsive-img materialboxed">
                 <img src="img/autres/montagecollage.jpg" class="responsive-img materialboxed">
+                <img src="img/autres/montageexpo.jpg" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12">
+
             </div>
 
         </div>
@@ -99,7 +102,7 @@ l’ensemble des créations sous la forme d’une exposition incluant un abécé
                   <iframe width="100%" height="315" ng-src="{{a.video}}" frameborder="0" allowfullscreen></iframe>
                 </div>
                 <div class="modal-footer">
-                  <a href="#!" class="btn-flat modal-action modal-close waves-effect waves-green ">OK</a>
+                  <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
                 </div>
             </div>
         </div>

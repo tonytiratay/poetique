@@ -1,18 +1,13 @@
 console.log("ok");
 $(document).ready(function() {
   $('.modal-trigger').leanModal();
+  $('.materialboxed').materialbox();
 });
 
-$(document).ready(function(){
-$('.materialboxed').materialbox();
-});
 
-$(document).ready(function(){
-    $('.scrollspy').scrollSpy();
-  });
 
 var alphabet = angular.module('alphabet', []);
-alphabet.controller('alphabetCtrl', 
+alphabet.controller('alphabetCtrl',
     function alphabetCtrl($scope, $sce){
         $scope.alphabet = [{
                 lettre : "a",
@@ -198,4 +193,3 @@ alphabet.controller('alphabetCtrl',
             }
         ];
     });
-    
